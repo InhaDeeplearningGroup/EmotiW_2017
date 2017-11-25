@@ -1,6 +1,6 @@
-# EmotiW_2017
+# Multi-modal Emotion Recognition using Semi-supervised Learning and Multiple Neural Networks in the Wild
 
-- Multi-modal Emotion Recognition using Semi-supervised Learning and Multiple Neural Networks in the Wild
+- Our networks is a novel method algorithm for facial emotion recognition. For more details, please refer to our EmotiW 2017 paper.
 - The Website is here [[EmotiW_2017]](https://sites.google.com/site/emotiwchallenge/)
 - Contact: kdhht5022@gmail.com
 
@@ -11,9 +11,9 @@
 ### Citation
 ```
   @InProceedings{kimICMI2017,
-  Author={Dae Ha Kim, Min Kyu Lee, Dong Yoon Choi, Byung Cheol Song},
-  Title={Multi-modal Emotion Recognition using Semi-supervised Learning and Multiple neural Networks},
-  Booktitle={19th ACM International Conference on Multimodal Interaction},  
+  Author = {Dae Ha Kim, Min Kyu Lee, Dong Yoon Choi, Byung Cheol Song},
+  Title = {Multi-modal Emotion Recognition using Semi-supervised Learning and Multiple neural Networks},
+  Booktitle = {19th ACM International Conference on Multimodal Interaction},  
   Year = {2017}
   }
 ```
@@ -54,5 +54,9 @@ This is only Image-based networks.
 You have to adjust the path of the `.npz` files in the `c3da.py` and `s3dae.py`
 
 And simply run :)
+
+## Next step
+
+- Add Audio-based networks
 
 
