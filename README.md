@@ -1,6 +1,6 @@
 # EmotiW_2017
 
-- Multi-modal Emotion Recognition using Semi-supervised Learning and Multiple Neural Networks in the Wild [[Paper]](https://1drv.ms/b/s!AsMhRBCpiZ4SnloahkRKI2jtdcxl)
+- Multi-modal Emotion Recognition using Semi-supervised Learning and Multiple Neural Networks in the Wild
 - The Website is here [[EmotiW_2017]](https://sites.google.com/site/emotiwchallenge/)
 - Contact: kdhht5022@gmail.com
 
@@ -10,11 +10,11 @@
 
 ### Citation
 ```
-  @InProceedings{kim2017multi-modal,
-  title={Multi-modal Emotion Recognition using Semi-supervised Learning and Multiple neural Networks},
-  author={Dae Ha Kim, Min Kyu Lee, Dong Yoon Choi, and Byung Cheol Song},
-  booktitle={ACM International Conference on Multimodal Interaction(ICMI'17). ACM},  
-  year={2017}
+  @InProceedings{kimICMI2017,
+  Author={Dae Ha Kim, Min Kyu Lee, Dong Yoon Choi, Byung Cheol Song},
+  Title={Multi-modal Emotion Recognition using Semi-supervised Learning and Multiple neural Networks},
+  Booktitle={19th ACM International Conference on Multimodal Interaction},  
+  Year = {2017}
   }
 ```
 
