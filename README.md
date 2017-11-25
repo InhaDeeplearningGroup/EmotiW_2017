@@ -2,7 +2,7 @@
 
 - Multi-modal Emotion Recognition using Semi-supervised Learning and Multiple Neural Networks in the Wild [[Paper]](https://1drv.ms/b/s!AsMhRBCpiZ4SnloahkRKI2jtdcxl)
 - The Website is here [[EmotiW_2017]](https://sites.google.com/site/emotiwchallenge/)
-- Contact: [[E-mail]](kdhht5022@gmail.com)
+- Contact: kdhht5022@gmail.com
 
 ### News
 - Prepare dataset codes are uploaded (25 Nov, 2017).
