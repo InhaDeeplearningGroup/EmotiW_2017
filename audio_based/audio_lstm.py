@@ -94,7 +94,6 @@ if __name__ == "__main__":
                     shuffle=True, epochs=50, callbacks=[mc])
     
     open('/your/path/checkpoint-clstm/model_audio_clstm.yaml', 'w').write(model_clstm.to_yaml())
-    model_clstm.load_weights('/your/path/checkpoint-clstm/model_clstm_weights.07-1.72-0.35.h5')
     proba_clstm = model_clstm.predict_on_batch(X_test)
     
     # Case 2: Bidirectional LSTM model
