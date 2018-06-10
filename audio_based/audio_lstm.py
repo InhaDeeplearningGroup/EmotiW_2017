@@ -157,6 +157,6 @@ if __name__ == "__main__":
                        loss='categorical_crossentropy', 
                        metrics=['accuracy'])
     
-    mc = keras.callbacks.ModelCheckpoint('/home/kdh/바탕화면/dfd/Concate_Network/checkpoint-lstm/model_lstm_weights.{epoch:02d}-{loss:.2f}.h5', monitor='val_loss', verbose=1, save_best_only=False, save_weights_only=True, mode='auto', period=1)
+    mc = keras.callbacks.ModelCheckpoint('/your/path/checkpoint-lstm/model_lstm_weights.{epoch:02d}-{loss:.2f}.h5', monitor='val_loss', verbose=1, save_best_only=False, save_weights_only=True, mode='auto', period=1)
     model_lstm.fit(X_train_2nd, y_train_2nd, batch_size=4, validation_data=(X_test, y_test), 
                    shuffle=True, epochs=50, callbacks=[mc])
