@@ -92,7 +92,8 @@ if __name__ == "__main__":
     mc = keras.callbacks.ModelCheckpoint('/your/path/checkpoint-clstm/model_clstm_weights.{epoch:02d}-{loss:.2f}-{val_acc:.2f}.h5', monitor='val_acc', verbose=1, save_best_only=False, save_weights_only=True, mode='auto', period=1)
     model_clstm.fit(X_train_2nd, y_train_2nd, batch_size=4, validation_data=(X_test, y_test), 
                     shuffle=True, epochs=50, callbacks=[mc])
-    
+                    
+    # Save model information in yaml and weight
     open('/your/path/checkpoint-clstm/model_audio_clstm.yaml', 'w').write(model_clstm.to_yaml())
     proba_clstm = model_clstm.predict_on_batch(X_test)
     
