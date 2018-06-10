@@ -7,6 +7,8 @@
 ### News
 - Prepare dataset codes are uploaded (25 Nov, 2017).
 - Image-based network's codes are uploaded (25 Nov, 2017).
+- Audio-lstm codes are uploaded (__10 June, 2018__).
+- If there are person who wants to acquire __our own dataset__ denoted by paper, please send an e-mail (__10 June, 2018__).
 
 ### Citation
 ```
@@ -55,8 +57,10 @@ You have to adjust the path of the `.npz` files in the `c3da.py` and `s3dae.py`
 
 And simply run :)
 
-## Next step
+## MileStone
 
-- Add Audio-based networks
+- [x] Add Image-based networks
+- [x] Add Audio-based networks
+- [x] Add our-own dataset information
 
 
